@@ -1,0 +1,15 @@
+.article {
+}
+.info_header_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+.cooper_pic {
+    order: -1;
+    align-self: flex-start;
+    flex-direction: row;
+
+}
