@@ -1,15 +1,19 @@
-.article {
-}
-.info_header_section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: column;
+.info_header_section {display: flex; flex-direction: row; margin: 5px; padding: 5px;}
 
-}
-.cooper_pic {
-    order: -1;
-    align-self: flex-start;
-    flex-direction: row;
+.basic_info_wrapper {display: flex; flex-direction: column; order: 2; align-items: center; padding: 5px; margin: 5px; background-color: #A8DADC; border-radius: 5px;}
 
-}
+.img_holding_div {order: 0;}
+
+img {border: #A8DADC 2px solid;}
+
+.short_bio_holder {background-color: #A8DADC; order: 3; border-radius: 5px; padding: 5px; margin: 5px;}
+
+.two_column_container {display: flex; justify-content: space-evenly; background-color: #E63946; padding: 3px; border-radius: 4px;}
+
+.committees_section {text-align: center; flex-basis: 49%; background-color: #A8DADC; border-radius: 10px;}
+
+.passed_legislation {text-align: center; flex-basis: 49%; background-color: #A8DADC; border-radius: 10px;}
+
+a {color: #E63946; border-radius: 5px;}
+
+body {background-color: #457B9D}
