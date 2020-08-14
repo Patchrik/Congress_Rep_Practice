@@ -12,8 +12,9 @@
 	align-items: center;
 	padding: 5px;
 	margin: 5px;
-	background-color: #a8dadc;
+	background-color: rgba(168, 218, 220, 1.0);
 	border-radius: 5px;
+	text-shadow: 3px 3px 10px white;
 }
 
 .img_holding_div {
@@ -21,11 +22,11 @@
 }
 
 img {
-	border: #a8dadc 2px solid;
+	border: rgba(168, 218, 220, 1.0) 2px solid;
 }
 
 .short_bio_holder {
-	background-color: #a8dadc;
+	background-color: rgba(168, 218, 220, 1.0);
 	order: 3;
 	border-radius: 5px;
 	padding: 5px;
@@ -35,7 +36,7 @@ img {
 .two_column_container {
 	display: flex;
 	justify-content: space-evenly;
-	background-color: #457b9d;
+	background-color: rgba(69, 123, 157, 1.0);
 	padding: 3px;
 	border-radius: 4px;
 	margin: 5px;
@@ -44,7 +45,7 @@ img {
 .committees_section {
 	text-align: center;
 	flex-basis: 47%;
-	background-color: #a8dadc;
+	background-color: rgba(168, 218, 220, 1.0);
 	border-radius: 10px;
 	margin: 5px;
 	padding: 5px;
@@ -53,18 +54,18 @@ img {
 .passed_legislation {
 	text-align: center;
 	flex-basis: 47%;
-	background-color: #a8dadc;
+	background-color: rgba(168, 218, 220, 1.0);
 	border-radius: 10px;
 	margin: 5px;
 	padding: 5px;
 }
 
 a {
-	color: #a8dadc;
+	color: rgba(168, 218, 220, 1.0);
 	border-radius: 5px;
 }
 
 body {
-	background-color: #457b9d;
-	color: #a8dadc;
+	background-color: rgba(69, 123, 157, 1.0);
+	color: rgba(168, 218, 220, 1.0);
 }
