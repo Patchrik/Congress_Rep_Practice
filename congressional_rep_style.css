@@ -1,3 +1,5 @@
+/* Colors --- #E8E9F3 Ghost White --- #837A75 Rocket Metallic --- #363457 Space Cadet */
+
 .info_header_section {
 	display: flex;
 	flex-direction: row;
@@ -12,8 +14,6 @@
 	align-items: center;
 	padding: 5px;
 	margin: 5px;
-	background-color: rgba(168, 218, 220, 1.0);
-	border-radius: 5px;
 	text-shadow: 3px 3px 10px white;
 }
 
@@ -22,11 +22,12 @@
 }
 
 img {
-	border: rgba(168, 218, 220, 1.0) 2px solid;
+	/* border: rgba(49, 10, 49, .70) 2px solid; */
+	border-radius: 7px;
 }
 
 .short_bio_holder {
-	background-color: rgba(168, 218, 220, 1.0);
+	/* background-color: rgba(168, 218, 220, 1.0); */
 	order: 3;
 	border-radius: 5px;
 	padding: 5px;
@@ -36,7 +37,7 @@ img {
 .two_column_container {
 	display: flex;
 	justify-content: space-evenly;
-	background-color: rgba(69, 123, 157, 1.0);
+	/* background-color: rgba(69, 123, 157, 1.0); */
 	padding: 3px;
 	border-radius: 4px;
 	margin: 5px;
@@ -45,7 +46,7 @@ img {
 .committees_section {
 	text-align: center;
 	flex-basis: 47%;
-	background-color: rgba(168, 218, 220, 1.0);
+	/* background-color: rgba(168, 218, 220, 1.0); */
 	border-radius: 10px;
 	margin: 5px;
 	padding: 5px;
@@ -54,18 +55,18 @@ img {
 .passed_legislation {
 	text-align: center;
 	flex-basis: 47%;
-	background-color: rgba(168, 218, 220, 1.0);
+	/* background-color: rgba(168, 218, 220, 1.0); */
 	border-radius: 10px;
 	margin: 5px;
 	padding: 5px;
 }
 
 a {
-	color: rgba(168, 218, 220, 1.0);
+	color: #8b80f9;
 	border-radius: 5px;
 }
 
 body {
-	background-color: rgba(69, 123, 157, 1.0);
-	color: rgba(168, 218, 220, 1.0);
+	background-color: rgba(232, 233, 243, 1.0);
+	color: #363457;
 }
