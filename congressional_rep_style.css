@@ -1,4 +1,4 @@
-/* Colors --- #E8E9F3 Ghost White --- #837A75 Rocket Metallic --- #363457 Space Cadet */
+/* Colors --- #E8E9F3 Ghost White --- #6290C8 United Nations Blue --- #363457 Space Cadet --- #75DBCD Middle Blue Green --- #878472 Middle Gray*/
 
 .info_header_section {
 	display: flex;
@@ -14,20 +14,15 @@
 	align-items: center;
 	padding: 5px;
 	margin: 5px;
-	text-shadow: 3px 3px 10px white;
+	text-shadow: 1px 1px 2px rgba(98, 144, 200, 1.0);
 }
 
 .img_holding_div {
 	order: 0;
 }
 
-img {
-	/* border: rgba(49, 10, 49, .70) 2px solid; */
-	border-radius: 7px;
-}
-
 .short_bio_holder {
-	/* background-color: rgba(168, 218, 220, 1.0); */
+	/* background-color: rgba(98, 144, 200, .30); */
 	order: 3;
 	border-radius: 5px;
 	padding: 5px;
@@ -46,7 +41,7 @@ img {
 .committees_section {
 	text-align: center;
 	flex-basis: 47%;
-	/* background-color: rgba(168, 218, 220, 1.0); */
+	/* background-color: rgba(98, 144, 200, .30); */
 	border-radius: 10px;
 	margin: 5px;
 	padding: 5px;
@@ -55,18 +50,36 @@ img {
 .passed_legislation {
 	text-align: center;
 	flex-basis: 47%;
-	/* background-color: rgba(168, 218, 220, 1.0); */
+	/* background-color: rgba(98, 144, 200, .30); */
 	border-radius: 10px;
 	margin: 5px;
 	padding: 5px;
 }
 
+.held-office-class {
+	font-style: italic;
+}
+
+.rep-name-text {
+	font-style: italic;
+	font-weight: bolder;
+}
+
 a {
-	color: #8b80f9;
+	color: #6290c8;
 	border-radius: 5px;
 }
 
 body {
 	background-color: rgba(232, 233, 243, 1.0);
 	color: #363457;
+}
+
+img {
+	border: rgba(98, 144, 200, .75) 2px solid;
+	border-radius: 7px;
+}
+
+h2 {
+	text-decoration: underline;
 }
